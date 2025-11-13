@@ -1,3 +1,4 @@
+Comandos usados
 LI2025-Teste03
 
 NOME: Guilherme Vieira de Castro
@@ -73,4 +74,5 @@ cat meusComandosLOCAIS.txt
 Termine fazendo ainda push para o main das revisões com a mensagem "Tarefa 6 cumprida".
 git add .
 git commit -m "Tarefa 6 cumprida"
+
 git push origin main
