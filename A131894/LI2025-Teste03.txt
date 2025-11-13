@@ -1,0 +1,76 @@
+LI2025-Teste03
+
+NOME: Guilherme Vieira de Castro
+NMEC: 131894
+
+1.
+pwd
+cd C:\Users\castr\OneDrive\Documentos\GitHub
+git clone https://github.com/Castro13GD/LI2025-Teste03.git
+
+2.
+cd C:\Users\castr\OneDrive\Documentos\GitHub\LI2025-Teste03
+mkdir "A131894"
+cd C:\Users\castr\OneDrive\Documentos\GitHub\LI2025-Teste03\A131894
+touch "README.md.txt"
+echo "Teste de LI 2025/2026" >> README.md.txt
+cd..
+git add .
+git commit -m "2ª tarefa concluída"
+git push origin main
+
+3.
+pwd
+cd C:\Users\castr\OneDrive\Documentos
+Clear-History
+git clone https://github.com/Castro13GD/LI2025-Teste03.git
+cd C:\Users\castr\OneDrive\Documentos\LI2025-Teste03
+touch index.html
+git add .
+git commit -m "3ª tarefa concluída"
+git push origin main
+(Dentro da tag <head>)
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+(Antes da tag </body>)
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+4.
+C:\Users\castr\OneDrive\Documentos\GitHub\Projetos html\omeuprimeiroprojetohtml\tarefa4.html
+http://127.0.0.1:5500/omeuprimeiroprojetohtml/tarefa4.html
+
+5.
+cp index.html disciplinas.html
+git add disciplinas.html
+git commit -m "Criado ficheiro disciplinas.html a partir do ficheiro index.html"
+git push origin main
+
+6.
+cd C:\Users\castr\OneDrive\Documentos\LI2025-Teste03\A131894
+git pull origin main
+history > meusComandosAzure.txt
+cat meusComandosAzure.txt
+=======================================
+Id CommandLine
+  -- -----------
+   1 git pull origin main
+   2 cd C:\Users\castr\OneDrive\Documentos\LI2025-Teste03\A131894
+   3 git pull origin main
+
+git add . && git commit -m "history azure" && git push origin main
+-------------------------------------------------
+
+Agora no seu terminal LOCAL (o seu powershell ou terminal) execute os comandos:
+git pull origin main
+history > meusComandosLOCAIS.txt
+cat meusComandosLOCAIS.txt
+-------------------------------------------------
+ Id CommandLine
+  -- -----------
+   1 git pull origin main
+   2 cd C:\Users\castr\OneDrive\Documentos\LI2025-Teste03\A131894
+   3 git pull origin main
+
+Termine fazendo ainda push para o main das revisões com a mensagem "Tarefa 6 cumprida".
+git add .
+git commit -m "Tarefa 6 cumprida"
+git push origin main
